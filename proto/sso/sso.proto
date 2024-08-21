@@ -54,6 +54,7 @@ message LogoutResponse {
 
 message ValidateTokenRequest {
   string token = 1;
+  int64 app_id = 2;
 }
 
 message ValidateTokenResponse {
